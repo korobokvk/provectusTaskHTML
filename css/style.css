@@ -1,8 +1,11 @@
 /*SETTINGS*/
+@import url('https://fonts.googleapis.com/css?family=Jaldi');
 .no-padding {
     padding: 0px;
 }
-
+body {
+    font-family: 'Jaldi', sans-serif;
+}
 /*!*=====================================HEADER=========================================*!*/
 
 
@@ -102,12 +105,24 @@
 
 .parent-img {
     padding-left: 15px;
+
 }
 
 
-/* ===================================== SHADOW =================================================*/
+/* ===================================== HASHTAG =================================================*/
+.insta {
+    position: absolute;
 
-
+    top: 10px;
+    right: 25px;
+}
+.hashtag {
+    font-weight: 600;
+}
+.instaLink {
+    text-decoration: none;
+    color: white;
+}
 
 /*======================================= MENU ===================================================*/
 
@@ -120,6 +135,8 @@
 
 .navbar .navbar-collapse {
     text-align: center;
+    font-weight: 900;
+
 
 }
 nav.navbar {
@@ -129,6 +146,8 @@ nav.navbar {
 }
 ul.nav.navbar-nav {
     font-size: large;
+
+
     padding: 15px;
 
 }
@@ -155,6 +174,7 @@ ul.nav.navbar-nav>li {
     display: inline-block;
     width: 50%;
     font-size: 3.5em;
+    font-weight: 600;
 }
 
 .btn {
@@ -209,6 +229,7 @@ ul.nav.navbar-nav>li {
     padding-left: 10%;
     width: 65%;
     font-size: 2.5em;
+    font-weight: 600;
 }
 .title:before {
     content: '—  ';
