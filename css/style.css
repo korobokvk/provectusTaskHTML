@@ -1,0 +1,334 @@
+/*SETTINGS*/
+.no-padding {
+    padding: 0px;
+}
+
+/*!*=====================================HEADER=========================================*!*/
+
+
+
+#photo_12 {
+    background-image: url("../img/hot-dog.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16.5%;
+}
+#photo_11 {
+    background-image: url("../img/hot-dog2.png");
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_10 {
+    background-image: url("../img/hot-dog3.png");
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_9 {
+    background-image: url("../img/hot-dog7.png");
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_8 {
+    background-image: url("../img/hot-dog13.png");
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_7 {
+    background-image: url("../img/hot-dog2.png");
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_6 {
+    background-image: url("../img/hot-dog5.png");
+    box-shadow: 5px 50px 90px -27px #000000 inset;
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_5 {
+    background-image: url("../img/hot-dog10.png");
+    box-shadow: 5px 50px 90px -27px #000000 inset;
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_4 {
+    background-image: url("../img/hot-dog6.png");
+    box-shadow: 5px 50px 90px -27px #000000 inset;
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_3 {
+    background-image: url("../img/hot-dog8.png");
+    box-shadow: 5px 50px 90px -27px #000000 inset;
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_2 {
+    background-image: url("../img/hot-dog11.png");
+    box-shadow: 5px 50px 90px -27px #000000 inset;
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+#photo_1 {
+    background-image: url("../img/hot-dog10.png");
+    box-shadow: 5px 50px 90px -27px #000000 inset;
+    background-size: cover;
+    float: left;
+    width: 16.5%;
+}
+
+.header-image {
+    margin: auto;
+    display:inline-block;
+}
+
+.header-image:before {
+    /*background-color: white;*/
+    content: '';
+    /*height: 20px;*/
+    padding-top: 100%;
+    float: left;
+ }
+
+.parent-img {
+    padding-left: 15px;
+}
+
+
+/* ===================================== SHADOW =================================================*/
+
+
+
+/*======================================= MENU ===================================================*/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+
+}
+nav.navbar {
+    border: none;
+    border-bottom: 2px solid rgba(221,221,221, 0.5) !important;
+    border-radius: 0 !important;
+}
+ul.nav.navbar-nav {
+    font-size: large;
+    padding: 15px;
+
+}
+ul.nav.navbar-nav>li {
+    padding-left: 150px;
+}
+
+    /*======================================= MIDDLE IMG ===========================================*/
+
+.hot-dog-alpha {
+    display: inline;
+    padding-top: 150px;
+    border: none;
+}
+.block {
+    text-align: center;
+}
+.block_text {
+    text-align: center;
+}
+
+.middle_text {
+    padding-top: 15px;
+    display: inline-block;
+    width: 50%;
+    font-size: 3.5em;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.3em;
+
+}
+
+@media (max-width: 1156px) {
+    ul.nav.navbar-nav>li {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 840px) {
+    .middle_text {
+        padding-top: 15px;
+        display: inline-block;
+        width: 50%;
+        font-size: 2.5em;
+    }
+    .btn {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: auto;
+    }
+}
+
+/*=========================================== MAIN SECTIONS ==========================================*/
+
+/*FIRST SECTION*/
+
+.img-gourmet {
+    background-image: url("../img/first-body-img.png");
+    margin: auto;
+    display:inline-block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    width: 100%;
+}
+.img-gourmet:before {
+    content: "";
+    padding-top: 70%;
+    float: right;
+}
+.title {
+    display: block;
+    padding-top: 25%;
+    padding-left: 10%;
+    width: 65%;
+    font-size: 2.5em;
+}
+.title:before {
+    content: '—  ';
+}
+.descriptor {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 80%;
+    font-size: 1.7em;
+    display: inline-block;
+
+}
+@media (max-width: 950px) {
+    .title {
+        display: block;
+        padding-top: 25%;
+        padding-left: 10%;
+        width: 65%;
+        font-size: 1.2em;
+    }
+    .title:before {
+        content: '—  ';
+    }
+    .descriptor {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        width: 80%;
+        font-size: 1em;
+        display: inline-block;
+
+    }
+}
+
+/*2ND SECTION*/
+
+.img-vegan {
+    background-image: url("../img/second-body-img.png");
+    display: inline-block;
+    -webkit-background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 103%;
+}
+.img-vegan:before {
+    content: "";
+    padding-top: 80%;
+    float: left;
+}
+
+
+@media (max-width: 1550px) {
+    .img-vegan {
+        background-image: url("../img/second-body-img.png");
+        display: inline-block;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        width: 104.5%;
+    }
+    .img-vegan:before {
+        content: "";
+        padding-top: 80%;
+        float: left;
+    }    
+
+}
+
+
+@media (max-width: 950px) {
+    .img-vegan {
+        background-image: url("../img/second-body-img.png");
+        display: inline-block;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        width: 100%;
+    }
+    .img-vegan:before {
+        content: "";
+        padding-top: 80%;
+        float: left;
+    }
+
+}
+
+/* 3D SECTION */
+
+.img-vegetarian{
+    background-image: url("../img/therd-bidy-img.png");
+    margin: auto;
+    display:inline-block;
+    -webkit-background-size: contain;
+    background-size:contain;
+    background-repeat: no-repeat;
+    float: right;
+    width: 100%;
+}
+.img-vegetarian:before {
+    content: "";
+    padding-top: 80%;
+    float: right;
+}
+
+/*=========================== FOOTER =========================*/
+
+.footer-row {
+    height: auto;
+    background-color: lightgray;
+}
+
+.footer-left, .footer-right {
+
+    line-height: 100px;
+
+}
+.footer-right {
+    float: right;
+}
